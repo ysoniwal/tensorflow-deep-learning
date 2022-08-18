@@ -1,6 +1,6 @@
 # tensorflow-deep-learning
 
-There are 10 notebooks + 1 fundamentals notebook in this repo. These are created as part of Tensorflow Deep Learning course on [Udemy](https://www.udemy.com/course/tensorflow-developer-certificate-machine-learning-zero-to-mastery/)
+There are 11 notebooks in this repo. These are created as part of Tensorflow Deep Learning course on [Udemy](https://www.udemy.com/course/tensorflow-developer-certificate-machine-learning-zero-to-mastery/)
 
 Description:
 | Notebook      | Topics covered |
@@ -8,11 +8,11 @@ Description:
 | 00_tensorflow_fundamentals      | `tf.constant`, `tf.Variable`, `.assign`, `random` class, `numpy` to tensor, `shape`, `ndim`, Other ways to create tensors, indexing, Math operations : `+,-,/,*`, Matrix multiplication, `reshape`, `transpose`, Aggregations, GPU configuration       |
 | 01_neural_network_regression_with_tensorflow   | Regression using tensorlow for [insurance](https://www.kaggle.com/datasets/mirichoi0218/insurance) dataset, Model building using `Sequential` API, `model.compile` (adding `loss`, `optimizer` and `metrics`), `model.fit`, `model.summary`, `model.evaluate`, `model.predict`, Download files from google colab, one-hot encoding using `get_dummies` in `pandas`, `tf.keras.utils.plot_model`, plotting model `history`        |
 | 02-neural_network_classification_with_tensorflow   | Introduction to classification, losses - `BinaryCrossentropy()`, `CategoricalCrossentropy()`, `SparseCategoricalCrossentropy()`, output activations - `sigmoid`, `softmax`, Classification evaluation metrics, finding best learning rate using `LearningRateScheduler` callback, Multiclass classification for [Fashion MNIST](https://www.kaggle.com/datasets/zalando-research/fashionmnist) with 10 classes, plot confusion matrix for multi class classification         |
-| 03-introduction_to_computer_vision_with_tensrflow   | Pizza and Steak image classification from [Food101](https://www.tensorflow.org/datasets/catalog/food101) dataset. Use `os.walk`, visualize images, normalization (`Rescale`), read images from directory using `tensorflow.keras.preprocessing.image.ImageDataGenerator`, [TinyVGG](https://pyimagesearch.com/2021/05/22/minivggnet-going-deeper-with-cnns/) architecture with `Conv2D`, `MaxPool2D` and `Flatten` layers, `Data Augmentation` using ImageDataGenerator, Regularization using `Dropout` layer, Testing Tiny VGG on 10 classes of foods     |
-| 04-transfer_learning_with_tensorflow_part1_features_extraction   | Text        |
-| 05-transfer_learning_with_tensorflow_part2_fine_tuning   | Text        |
-| 06-transfer_learning_with_tensorflow_part3_scaling_up   | Text        |
-| 07-milestone_project_1_food_101   | Text        |
+| 03-introduction_to_computer_vision_with_tensrflow   | Pizza 🍕 and Steak image classification from [Food101](https://www.tensorflow.org/datasets/catalog/food101) dataset. Use `os.walk`, visualize images, normalization (`Rescale`), read images from directory using `tensorflow.keras.preprocessing.image.ImageDataGenerator`, [TinyVGG](https://pyimagesearch.com/2021/05/22/minivggnet-going-deeper-with-cnns/) architecture with `Conv2D`, `MaxPool2D` and `Flatten` layers, `Data Augmentation` using ImageDataGenerator, Regularization using `Dropout` layer, Testing Tiny VGG on 10 classes of foods     |
+| 04-transfer_learning_with_tensorflow_part1_features_extraction   | Types of Transfer Learning - As is, Feature extraction and Fine tuning, read images using `tf.keras.utils.image_dataset_from_directory` class, Create `TensorBoard` callback, explore `EfficientNet_B0` and `Resnet_v2_50` from `tensorflow_hub`, upload records to [tensorboard dev](https://tensorboard.dev/)       |
+| 05-transfer_learning_with_tensorflow_part2_fine_tuning   | Feature extraction from `tf.keras.applications`, `ModelCheckpoint`, unfreeze layers and fine tune with reduced learning rate and setting `initial_epoch` as the last epoch of feature extractor model        |
+| 06-transfer_learning_with_tensorflow_part3_scaling_up   | FoodVision 101 -> Scaling up to 101 classes, Data Augmentation using layers, feature extractor and fine-tuned EfficientNetB0 model, `model.save` and `tf.keras.models.load_model`, using sklearn `classification_report`, finding most wrong predictions        |
+| 07-milestone_project_1_food_101   | `mixed_precision` training, layer `dtype` and `dtype_policy`, making use of `tf.data.Dataset` API, `Batch` and `prefetch` data, Beat [DeepFood](https://arxiv.org/abs/1606.05675) paper results with fine tuning EfficientNetB0 😄  |
 | 08-introduction_to_nlp_with_tensorflow   | Text        |
 | 09_skimlit_milestone_project2   | Text        |
 | 10_time_series_fundamentals_with_tensorflow   | Text        |
