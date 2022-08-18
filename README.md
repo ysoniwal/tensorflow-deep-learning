@@ -13,8 +13,8 @@ Description:
 | 05-transfer_learning_with_tensorflow_part2_fine_tuning   | Feature extraction from `tf.keras.applications`, `ModelCheckpoint`, unfreeze layers and fine tune with reduced learning rate and setting `initial_epoch` as the last epoch of feature extractor model        |
 | 06-transfer_learning_with_tensorflow_part3_scaling_up   | FoodVision 101 -> Scaling up to 101 classes, Data Augmentation using layers, feature extractor and fine-tuned EfficientNetB0 model, `model.save` and `tf.keras.models.load_model`, using sklearn `classification_report`, finding most wrong predictions        |
 | 07-milestone_project_1_food_101   | `mixed_precision` training, layer `dtype` and `dtype_policy`, making use of `tf.data.Dataset` API, `Batch` and `prefetch` data, Beat [DeepFood](https://arxiv.org/abs/1606.05675) paper results with fine tuning EfficientNetB0 😄  |
-| 08-introduction_to_nlp_with_tensorflow   | Text        |
-| 09_skimlit_milestone_project2   | Text        |
+| 08-introduction_to_nlp_with_tensorflow   | [Disaster tweet classification](https://www.kaggle.com/competitions/nlp-getting-started), `TextVectorization`, word `Embedding`, `LSTM`, `GRU`, `Bidirectional LSTM`, `Conv1D`, feature extraction from [Universal Sentence Encoder](https://tfhub.dev/google/universal-sentence-encoder/4), speed/score tradeoff         |
+| 09_skimlit_milestone_project2   | Replicating [this](https://arxiv.org/abs/1710.06071) and [this](https://arxiv.org/abs/1612.05251) papers for multi class classification of [PubMed 20k RCT data](https://github.com/Franck-Dernoncourt/pubmed-rct), feature extractor model, word embedding based model, character embedding based model, multimodal model - pretrained token embedding + character embedding, positional embedding of `line_number` and `total_lines` features      |
 | 10_time_series_fundamentals_with_tensorflow   | Text        |
 
 
