@@ -3,6 +3,21 @@
 There are 10 notebooks + 1 fundamentals notebook in this repo. These are created as part of Tensorflow Deep Learning course on [Udemy](https://www.udemy.com/course/tensorflow-developer-certificate-machine-learning-zero-to-mastery/)
 
 Description:
+| Notebook      | Topics covered |
+| ----------- | ----------- |
+| 00_tensorflow_fundamentals      | `tf.constant`, `tf.Variable`, `.assign`, `random` class, `numpy` to tensor, `shape`, `ndim`, Other ways to create tensors, indexing, Math operations : `+,-,/,*`, Matrix multiplication, `reshape`, `transpose`, Aggregations, GPU configuration       |
+| 01_neural_network_regression_with_tensorflow   | Regression using tensorlow for [insurance](https://www.kaggle.com/datasets/mirichoi0218/insurance) dataset, Model building using `Sequential` API, `model.compile` (adding `loss`, `optimizer` and `metrics`), `model.fit`, `model.summary`, `model.evaluate`, `model.predict`, Download files from google colab, one-hot encoding using `get_dummies` in `pandas`, `tf.keras.utils.plot_model`, plotting model `history`        |
+| 02-neural_network_classification_with_tensorflow   | Text        |
+| 03-introduction_to_computer_vision_with_tensrflow   | Text        |
+| 04-transfer_learning_with_tensorflow_part1_features_extraction   | Text        |
+| 05-transfer_learning_with_tensorflow_part2_fine_tuning   | Text        |
+| 06-transfer_learning_with_tensorflow_part3_scaling_up   | Text        |
+| 07-milestone_project_1_food_101   | Text        |
+| 08-introduction_to_nlp_with_tensorflow   | Text        |
+| 09_skimlit_milestone_project2   | Text        |
+| 10_time_series_fundamentals_with_tensorflow   | Text        |
+
+
 
 1. 00_tensorflow_fundamentals.ipynb
   * `tf.constant`, `tf.Variable`, `.assign`
