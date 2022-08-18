@@ -17,7 +17,18 @@ Description:
   * Transpose
   * Aggregations
   * GPU configuration
-2. 01_neural_network_regression_with_tensorflow.ipynb -> Regression using tensorlow for https://www.kaggle.com/datasets/mirichoi0218/insurance dataset. Topics covered: Model building using Sequential API, Model compiling (adding loss, optimizer and metrics) and Model Training
+2. 01_neural_network_regression_with_tensorflow.ipynb -> 
+  * Regression using tensorlow for https://www.kaggle.com/datasets/mirichoi0218/insurance dataset
+  * Model building using `Sequential` API
+  * `model.compile` (adding `loss`, `optimizer` and `metrics`)
+  * `model.fit`
+  * `model.summary`
+  * `model.evaluate`
+  * `model.predict`
+  * Download files from google colab
+  * one-hot encoding in `pandas`
+  * `tf.keras.utils.plot_model`
+  * plotting model `history`
 3. 02-neural_network_classification_with_tensorflow.ipynb -> Classification using tensorflow. Topics covered: `LearningRateScheduler` callback, using history to plot loss curves, multiclass classification on MNIST data for 10 classes, Adding `validation_data` during training, plotting confusion matrix for multiclass classification
 4. 03-introduction_to_computer_vision_with_tensrflow.ipynb -> Computer vision using Tensorflow. Topics covered: normalizing and reshaping images, data augmentation, dropout, maxPool, using `ImageDataGenerator` and `flow_from_directory` preprocessing methods to create data from directory, create TinyVGG architecture
 5. 04-transfer_learning_with_tensorflow_part1_features_extraction.ipynb -> Transfer learning using feature extraction. Topics covered: using `tf.keras.utils.image_dataset_from_directory` to read images from directory, `EfficientNet_B0` and `Resnet_v2_50` using `tensorflow_hub`, uploading records to tensorboard
