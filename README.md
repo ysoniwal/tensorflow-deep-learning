@@ -4,7 +4,19 @@ There are 10 notebooks + 1 fundamentals notebook in this repo. These are created
 
 Description:
 
-1. 00_tensorflow_fundamentals.ipynb -> Topics covered: Tensorflow constants, variables, math operations, transformations, numpy conversion, shapes, len, ndim.
+1. 00_tensorflow_fundamentals.ipynb
+  * `tf.constant`, `tf.Variable`, `.assign`
+  * `random` class
+  * `numpy` to tensor
+  * `shape`, `ndim`
+  * Other ways to create tensors
+  * indexing
+  * Math operations : `+,-,/,*`
+  * Matrix multiplication
+  * Reshape
+  * Transpose
+  * Aggregations
+  * GPU configuration
 2. 01_neural_network_regression_with_tensorflow.ipynb -> Regression using tensorlow for https://www.kaggle.com/datasets/mirichoi0218/insurance dataset. Topics covered: Model building using Sequential API, Model compiling (adding loss, optimizer and metrics) and Model Training
 3. 02-neural_network_classification_with_tensorflow.ipynb -> Classification using tensorflow. Topics covered: `LearningRateScheduler` callback, using history to plot loss curves, multiclass classification on MNIST data for 10 classes, Adding `validation_data` during training, plotting confusion matrix for multiclass classification
 4. 03-introduction_to_computer_vision_with_tensrflow.ipynb -> Computer vision using Tensorflow. Topics covered: normalizing and reshaping images, data augmentation, dropout, maxPool, using `ImageDataGenerator` and `flow_from_directory` preprocessing methods to create data from directory, create TinyVGG architecture
